@@ -3,780 +3,910 @@
     "name": "1000.tools",
     "url": "https://1000.tools/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "altern.ai",
     "url": "https://altern.ai/recent",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "auraplusplus.com",
     "url": "https://auraplusplus.com/launches",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "betalist.com",
     "url": "https://feeds.feedburner.com/BetaList",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "rss"
   },
   {
     "name": "buildvoyage.com",
     "url": "https://buildvoyage.com/sitemaps/pages.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "businesshunt.co",
     "url": "https://businesshunt.co/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "curlship.com",
     "url": "https://curlship.com/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "devhunt.org",
     "url": "https://devhunt.org/upcoming",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "fazier.com",
     "url": "https://fazier.com/",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "findly.tools",
     "url": "https://findly.tools/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "firsto.co",
     "url": "https://firsto.co/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "founder.best",
     "url": "https://www.founder.best/api/mcp",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "mcp"
   },
   {
     "name": "foundrlist.com",
     "url": "https://www.foundrlist.com/feeds/products.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "rss"
   },
   {
     "name": "griv.io",
     "url": "https://griv.io/sitemap",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "huntifyai.com",
     "url": "https://huntifyai.com/tools?sort=time_desc",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "huzzler.so",
     "url": "https://huzzler.so/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "ideakiln.com",
     "url": "https://ideakiln.com/ideas/today",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "indiehub.best",
     "url": "https://indiehub.best/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "indiepa.ge",
     "url": "https://indiepa.ge/new",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "indietool.io",
     "url": "https://www.indietool.io/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "launchboosts.com",
     "url": "https://launchboosts.com/",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html_cards"
   },
   {
     "name": "launchbuff.com",
     "url": "https://launchbuff.com/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "launchigniter.com",
     "url": "https://launchigniter.com/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "launchvault.dev",
     "url": "https://www.launchvault.dev/trending",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "microlaunch.net",
     "url": "https://microlaunch.net/sitemap-0.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "nicklaunches.com",
     "url": "https://nicklaunches.com/",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "open-launch.com",
     "url": "https://open-launch.com/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "openhunts.com",
     "url": "https://openhunts.com/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "peerpush.net",
     "url": "https://peerpush.com/api/mcp",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "mcp"
   },
   {
     "name": "pitchwall.co",
     "url": "https://pitchwall.co/rss",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "rss"
   },
   {
     "name": "productfame.com",
     "url": "https://productfame.com/trending",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "productwatch.io",
     "url": "https://productwatch.io/launches/day",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "rankinpublic.xyz",
     "url": "https://rankinpublic.xyz/sitemap-0.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "saascity.io",
     "url": "https://saascity.io/live",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "saasfame.com",
     "url": "https://saasfame.com/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "saashunt.best",
     "url": "https://saashunt.best/sitemap/0.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "scrolllaunch.com",
     "url": "https://www.scrolllaunch.com/api/mcp",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "mcp"
   },
   {
     "name": "shinylaunch.com",
     "url": "https://shinylaunch.com/latest",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "shipboost.io",
     "url": "https://shipboost.io/launches/weekly",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "shipstry.com",
     "url": "https://shipstry.com/rss.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "rss"
   },
   {
     "name": "similarlabs.com",
     "url": "https://similarlabs.com/zh/launches",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "smollaunch.com",
     "url": "https://smollaunch.com/api/v1/products",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "json_api"
   },
   {
     "name": "startupbase.io",
     "url": "https://startupbase.io/launches",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "startupfa.st",
     "url": "https://www.startupfa.st/trending",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "startupstash.com",
     "url": "https://startupstash.com/page-sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "submithunt.com",
     "url": "https://www.submithunt.com/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "sumodir.com",
     "url": "https://sumodir.com/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "tinyhunt.dev",
     "url": "https://tinyhunt.dev/sitemap/0.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "tinylaunch.com",
     "url": "https://tinylaunch.com/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "tinylaunchpad.com",
     "url": "https://tinylaunchpad.com/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "tinystartups.com",
     "url": "https://www.tinystartups.com/today",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "toolatlas.io",
     "url": "https://toolatlas.io/launches",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "toolhunter.ai",
     "url": "https://toolhunter.ai/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "tools.launchllama.co",
     "url": "https://tools.launchllama.co/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "turbo0.com",
     "url": "https://turbo0.com/collection/new-this-month",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "html"
   },
   {
     "name": "uneed.best",
     "url": "https://mcp.uneed.best/mcp",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "mcp"
   },
   {
     "name": "vibecodinglist.com",
     "url": "https://vibecodinglist.com/sitemap.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "sitemap"
   },
   {
     "name": "whatlaunched.today",
     "url": "https://whatlaunched.today/feed.xml",
     "category": "新品发布平台",
+    "category_en": "New-product launch platforms",
     "method": "rss"
   },
   {
     "name": "aiagentsdirectory.com",
     "url": "https://aiagentsdirectory.com/sitemap.xml",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "sitemap"
   },
   {
     "name": "aibesttop.com",
     "url": "https://aibesttop.com/sitemap.xml",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "sitemap"
   },
   {
     "name": "aidirectori.es",
     "url": "https://www.aidirectori.es/sitemaps/static.xml",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "sitemap"
   },
   {
     "name": "aihubs.ai",
     "url": "https://aihubs.ai/sitemap.xml",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "sitemap"
   },
   {
     "name": "aistage.net",
     "url": "https://aistage.net/tools/latest",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "html"
   },
   {
     "name": "aitoolly.com",
     "url": "https://aitoolly.com/ai-news/rss.xml",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "rss"
   },
   {
     "name": "aitoolnet.com",
     "url": "https://www.aitoolnet.com/new",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "html_cards"
   },
   {
     "name": "aitools.inc",
     "url": "https://aitools.inc/sitemap.xml",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "sitemap"
   },
   {
     "name": "aitoolsclub.com",
     "url": "https://aitoolsclub.com/rss/",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "rss"
   },
   {
     "name": "aitoolsdirectory.com",
     "url": "https://aitoolsdirectory.com/items.rss",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "rss"
   },
   {
     "name": "aitooltrek.com",
     "url": "https://aitooltrek.com/sitemap.xml",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "sitemap"
   },
   {
     "name": "aivalley.ai",
     "url": "https://aivalley.ai/feed/",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "rss"
   },
   {
     "name": "aiwith.me",
     "url": "https://aiwith.me/sitemap.xml",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "sitemap"
   },
   {
     "name": "aixploria.com",
     "url": "https://www.aixploria.com/feed",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "rss"
   },
   {
     "name": "bestofai.com",
     "url": "https://bestofai.com/new-tools",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "html"
   },
   {
     "name": "codehype.ai",
     "url": "https://www.codehype.ai/v1/launches",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "json_api"
   },
   {
     "name": "creati.ai",
     "url": "https://creati.ai/ai-tools/new/",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "html"
   },
   {
     "name": "dang.ai",
     "url": "https://dang.ai/new",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "html"
   },
   {
     "name": "firstlook.tools",
     "url": "https://firstlook.tools/sitemap.xml",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "sitemap"
   },
   {
     "name": "futurepedia.io",
     "url": "https://www.futurepedia.io/sitemap.xml",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "sitemap"
   },
   {
     "name": "futuretools.io",
     "url": "https://futuretools.io/sitemaps/pages.xml",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "sitemap"
   },
   {
     "name": "goodaitools.com",
     "url": "https://goodaitools.com/latest",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "html"
   },
   {
     "name": "gptdemo.net",
     "url": "https://www.gptdemo.net/gpt/today?lg=en",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "html"
   },
   {
     "name": "iuu.ai",
     "url": "https://iuu.ai/sitemap.xml",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "sitemap"
   },
   {
     "name": "magicbox.tools",
     "url": "https://magicbox.tools/latest",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "html"
   },
   {
     "name": "mossai.org",
     "url": "https://mossai.org/",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "html_cards"
   },
   {
     "name": "nxgntools.com",
     "url": "https://www.nxgntools.com/launching",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "html"
   },
   {
     "name": "poweredbyai.app",
     "url": "https://poweredbyai.app/latest-tools",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "html"
   },
   {
     "name": "rankyourai.com",
     "url": "https://rankyourai.com/rss.xml/",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "rss"
   },
   {
     "name": "saasaitools.com",
     "url": "https://saasaitools.com/feed/",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "rss"
   },
   {
     "name": "seektool.ai",
     "url": "https://seektool.ai/fr/new",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "html"
   },
   {
     "name": "seofai.com",
     "url": "https://seofai.com/explore/?type=ai-tools&sort=latest",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "html"
   },
   {
     "name": "showmebest.ai",
     "url": "https://showmebest.ai/sitemap.xml",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "sitemap"
   },
   {
     "name": "submitaitools.org",
     "url": "https://submitaitools.org/sitemap.xml",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "sitemap"
   },
   {
     "name": "supertools.therundown.ai",
     "url": "https://supertools.therundown.ai/feed",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "rss"
   },
   {
     "name": "thataicollection.com",
     "url": "https://thataicollection.com/served-sitemap.xml",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "sitemap"
   },
   {
     "name": "thetoolsverse.com",
     "url": "https://thetoolsverse.com/categories/latest-ai",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "html"
   },
   {
     "name": "toolfio.com",
     "url": "https://toolfio.com/sitemap.xml",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "sitemap"
   },
   {
     "name": "toolfolio.com",
     "url": "https://toolfolio.com/sitemap.xml",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "sitemap"
   },
   {
     "name": "toolpilot.ai",
     "url": "https://www.toolpilot.ai/collections/new-ai-tools/products.json?limit=60",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "shopify_json"
   },
   {
     "name": "toolsfine.com",
     "url": "https://toolsfine.com/sitemap-core.xml",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "sitemap"
   },
   {
     "name": "topaihubs.com",
     "url": "https://topaihubs.com/",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "html_cards"
   },
   {
     "name": "ufind.best",
     "url": "https://ufind.best/mcp",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "mcp"
   },
   {
     "name": "verifiedtools.info",
     "url": "https://www.verifiedtools.info/sitemap.xml",
     "category": "AI工具目录",
+    "category_en": "AI tool directories",
     "method": "sitemap"
   },
   {
     "name": "alterbase.co",
     "url": "https://alterbase.co/sitemap.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "sitemap"
   },
   {
     "name": "alternativeto.net",
     "url": "https://alternativeto.net/browse/new-apps/",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "html"
   },
   {
     "name": "appsumo.com",
     "url": "https://appsumo.com/collections/new/",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "html"
   },
   {
     "name": "confettisaas.com",
     "url": "https://confettisaas.com/sitemap.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "sitemap"
   },
   {
     "name": "devresourc.es",
     "url": "https://devresourc.es/feed.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "rss"
   },
   {
     "name": "directree.io",
     "url": "https://www.directree.io/new",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "html"
   },
   {
     "name": "dododirectory.com",
     "url": "https://dododirectory.com/sitemap.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "sitemap"
   },
   {
     "name": "euroalternative.eu",
     "url": "https://euroalternative.eu/rss/tools.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "rss"
   },
   {
     "name": "featuredtool.com",
     "url": "https://featuredtool.com/sitemap.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "sitemap"
   },
   {
     "name": "findyoursaas.com",
     "url": "https://findyoursaas.com/sitemap/pages.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "sitemap"
   },
   {
     "name": "microsaasexamples.com",
     "url": "https://www.microsaasexamples.com/sitemap.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "sitemap"
   },
   {
     "name": "newtool.site",
     "url": "https://newtool.site/sitemap.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "sitemap"
   },
   {
     "name": "openalternative.co",
     "url": "https://openalternative.co/rss/tools.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "rss"
   },
   {
     "name": "promoteproject.com",
     "url": "https://www.promoteproject.com/sitemap/startups.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "sitemap"
   },
   {
     "name": "publicapis.dev",
     "url": "https://publicapis.dev/feed.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "rss"
   },
   {
     "name": "saasbison.com",
     "url": "https://saasbison.com/sitemap.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "sitemap"
   },
   {
     "name": "saasgrow.app",
     "url": "https://saasgrow.app/sitemap.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "sitemap"
   },
   {
     "name": "saashub.com",
     "url": "https://saashub.com/new",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "html"
   },
   {
     "name": "scoutforge.net",
     "url": "https://scoutforge.net/sitemap.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "sitemap"
   },
   {
     "name": "submitmysaas.com",
     "url": "https://submitmysaas.com/sitemap.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "sitemap"
   },
   {
     "name": "thesaashub.com",
     "url": "https://thesaashub.com/sitemap.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "sitemap"
   },
   {
     "name": "toolfame.com",
     "url": "https://toolfame.com/sitemap.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "sitemap"
   },
   {
     "name": "toolfinder.co",
     "url": "https://toolfinder.com/tools/new",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "html"
   },
   {
     "name": "uno.directory",
     "url": "https://uno.directory/sitemap.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "sitemap"
   },
   {
     "name": "versily.com",
     "url": "https://versily.com/rss/products.xml",
     "category": "SaaS/工具目录",
+    "category_en": "SaaS and general tool directories",
     "method": "rss"
   },
   {
     "name": "dev.to",
     "url": "https://dev.to/api/articles?tag=showdev&per_page=30",
     "category": "社区/内容平台",
+    "category_en": "Community and content platforms",
     "method": "json_api"
   },
   {
     "name": "news.ycombinator.com",
     "url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn",
     "category": "社区/内容平台",
+    "category_en": "Community and content platforms",
     "method": "hn_api"
   },
   {
     "name": "producthunt.com",
     "url": "https://www.producthunt.com/feed",
     "category": "社区/内容平台",
+    "category_en": "Community and content platforms",
     "method": "ph_graphql"
   }
 ]

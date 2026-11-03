@@ -16,7 +16,7 @@ License: [MIT License](LICENSE).
 | --- | --- |
 | `README.md` | Chinese version of this document |
 | `README.en.md` | English version, this file |
-| `sources.json` | JSON array of 130 objects, four fields each |
+| `sources.json` | JSON array of 130 objects, five fields each |
 | `sources.csv` | The same table, UTF-8, no BOM |
 | `LICENSE` | MIT License |
 
@@ -32,23 +32,22 @@ This repository holds the list, this document, and the MIT license.
 | --- | --- |
 | `name` | Site label, usually a domain |
 | `url` | Public address to read |
-| `category` | One of the four categories below |
+| `category` | Category label for the Chinese edition |
+| `category_en` | English category, one of the four names below |
 | `method` | Fetch-method code |
 
-`sources.json` is an array. Each object has only these four keys, in this order: `name`, `url`, `category`, `method`.
-
-The record below is copied from the data file. Its `category` value is the Chinese label used in the files.
+`sources.json` is an array. Each object uses this key order: `name`, `url`, `category`, `category_en`, `method`. This page uses `category_en`.
 
 ```json
 {
   "name": "betalist.com",
   "url": "https://feeds.feedburner.com/BetaList",
-  "category": "新品发布平台",
+  "category_en": "New-product launch platforms",
   "method": "rss"
 }
 ```
 
-`sources.csv` uses the same columns and the same order. Categories follow the stored order, then name, case-insensitive. A name is sometimes a different host from the address. The BetaList feed is on FeedBurner. The other mismatches are listed at the end.
+`sources.csv` uses the same columns and the same order. Rows are grouped by `category_en` in the order below, then by name, case-insensitive. A name is sometimes a different host from the address. The BetaList feed is on FeedBurner. The other mismatches are listed at the end.
 
 ## Categories
 
@@ -59,7 +58,7 @@ The record below is copied from the data file. Its `category` value is the Chine
 | SaaS and general tool directories | 25 | SaaS, indie-developer tools, and general directories |
 | Community and content platforms | 3 | Dev.to, Hacker News Show HN, and Product Hunt |
 
-In `sources.json` and `sources.csv`, `category` is stored as one of these labels, in this order: `新品发布平台`, `AI工具目录`, `SaaS/工具目录`, `社区/内容平台`. The tables on this page use the English names. `SaaS/工具目录` means SaaS and general tool directories.
+`category_en` is one of those four names, in that order. The catalog below uses the same names.
 
 ## Fetch methods
 
@@ -91,7 +90,7 @@ The list contains public pages, public feeds, public sitemaps, or public APIs. I
 
 ## License
 
-[MIT License](LICENSE). Copyright (c) 2026 范师傅 (Fan Shifu). You can copy, modify, and distribute this list if you keep the copyright notice and the permission notice. Trademarks stay with each site.
+[MIT License](LICENSE). Copyright (c) 2026 Fan Shifu. You can copy, modify, and distribute this list if you keep the copyright notice and the permission notice. Trademarks stay with each site.
 
 ## Catalog
 

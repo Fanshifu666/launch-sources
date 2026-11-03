@@ -16,7 +16,7 @@
 | --- | --- |
 | `README.md` | 中文说明，本文件 |
 | `README.en.md` | 英文说明 |
-| `sources.json` | 130 条 JSON 数组，每条四个字段 |
+| `sources.json` | 130 条 JSON 数组，每条五个字段 |
 | `sources.csv` | 同一份表，UTF-8 编码，文件开头没有 BOM |
 | `LICENSE` | MIT 许可证 |
 
@@ -32,16 +32,18 @@
 | --- | --- |
 | `name` | 站点标识，多数是域名 |
 | `url` | 公开读取地址 |
-| `category` | 下面四类之一 |
+| `category` | 中文类别，下面四个原值之一 |
+| `category_en` | 英文类别，与 `category` 一一对应 |
 | `method` | 抓取方式代码 |
 
-`sources.json` 是数组。每条对象只有这四个键，顺序固定为 `name`、`url`、`category`、`method`。
+`sources.json` 是数组。每条对象只有这五个键，顺序固定为 `name`、`url`、`category`、`category_en`、`method`。
 
 ```json
 {
   "name": "betalist.com",
   "url": "https://feeds.feedburner.com/BetaList",
   "category": "新品发布平台",
+  "category_en": "New-product launch platforms",
   "method": "rss"
 }
 ```
@@ -52,14 +54,14 @@
 
 ## 类别
 
-| 类别 | 条数 | 在看什么 |
-| --- | ---: | --- |
-| `新品发布平台` | 58 | 新产品发布、每周上新、发布列表 |
-| `AI工具目录` | 44 | AI 工具导航和最新收录 |
-| `SaaS/工具目录` | 25 | SaaS、独立开发者工具和通用目录 |
-| `社区/内容平台` | 3 | Dev.to、Hacker News 的 Show HN、Product Hunt |
+| 类别 `category` | 英文 `category_en` | 条数 | 在看什么 |
+| --- | --- | ---: | --- |
+| `新品发布平台` | New-product launch platforms | 58 | 新产品发布、每周上新、发布列表 |
+| `AI工具目录` | AI tool directories | 44 | AI 工具导航和最新收录 |
+| `SaaS/工具目录` | SaaS and general tool directories | 25 | SaaS、独立开发者工具和通用目录 |
+| `社区/内容平台` | Community and content platforms | 3 | Dev.to、Hacker News 的 Show HN、Product Hunt |
 
-字段里写的是左列原文。`SaaS/工具目录` 就是 SaaS 和通用工具目录。
+`category` 用左列原文。`category_en` 用英文列。`SaaS/工具目录` 就是 SaaS 和通用工具目录。
 
 ## 抓取方式
 
@@ -91,7 +93,7 @@
 
 ## 许可
 
-[MIT 许可证](LICENSE)。版权人是范师傅（Fan Shifu），年份为 2026。你可以复制、修改、分发这份清单，并在副本中保留版权声明和许可声明。各站点的商标仍属于该站点。
+[MIT 许可证](LICENSE)。版权声明是 Copyright (c) 2026 Fan Shifu。你可以复制、修改、分发这份清单，并在副本中保留版权声明和许可声明。各站点的商标仍属于该站点。
 
 ## 清单
 
