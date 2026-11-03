@@ -1,42 +1,38 @@
 # launch-sources
 
-[中文](#zh) · [English](#en) · [清单 / Catalog](#catalog)
+[English](README.en.md)
 
-**130 个公开信源，用来看新站发布和工具目录。**  
-**130 public sources for new launches and tool directories.**
+**130 个公开信源，用来看新站发布和工具目录。**
 
-由 **范师傅（[@fanshifu](https://x.com/FanShifu)）** 整理。  
-Curated by **范师傅 ([@fanshifu](https://x.com/FanShifu))**.
+由范师傅（[@fanshifu](https://x.com/FanShifu)）整理。
 
-整理日期 / Prepared: 2026-11-03。共 130 条 / 130 entries。这是一份快照，不会自动更新。  
-This is a snapshot. It is not updated automatically.
+整理日期：2026-11-03。共 130 条。这是一份快照，不会自动更新。
 
-许可 / License: [MIT](LICENSE)。Copyright (c) 2026 范师傅 (Fan Shifu)。
+许可：[MIT 许可证](LICENSE)。
 
-| 文件 File | 内容 Content |
+## 文件
+
+| 文件 | 内容 |
 | --- | --- |
-| `README.md` | 本说明 / this document |
-| `sources.json` | 130 条 JSON 数组，每条只有四个字段 / JSON array of 130 objects, four fields each |
-| `sources.csv` | 同一份表，UTF-8，无 BOM / the same table, UTF-8, no BOM |
-| `LICENSE` | MIT License。Copyright (c) 2026 范师傅 (Fan Shifu)。 |
+| `README.md` | 中文说明，本文件 |
+| `README.en.md` | 英文说明 |
+| `sources.json` | 130 条 JSON 数组，每条四个字段 |
+| `sources.csv` | 同一份表，UTF-8 编码，文件开头没有 BOM |
+| `LICENSE` | MIT 许可证 |
 
-<a id="zh"></a>
-
-## 中文
-
-范师傅（[@fanshifu](https://x.com/FanShifu)）整理。
+## 这是什么
 
 我每天用这 130 个公开地址看有什么新站。新品发布平台 58 个，AI 工具目录 44 个，SaaS 和通用工具目录 25 个，社区和内容平台 3 个。这 130 个是从 1000 多个目录站和发布站里筛出来、现在还能公开读取的来源。
 
 仓库里是清单、这份说明和 MIT 许可。
 
-### 字段
+## 字段
 
 | 字段 | 含义 |
 | --- | --- |
 | `name` | 站点标识，多数是域名 |
 | `url` | 公开读取地址 |
-| `category` | 下面四类之一，值为中文 |
+| `category` | 下面四类之一 |
 | `method` | 抓取方式代码 |
 
 `sources.json` 是数组。每条对象只有这四个键，顺序固定为 `name`、`url`、`category`、`method`。
@@ -50,26 +46,26 @@ This is a snapshot. It is not updated automatically.
 }
 ```
 
-`sources.csv` 用同样的列名和同样的顺序。类别按「新品发布平台、AI工具目录、SaaS/工具目录、社区/内容平台」排列，同一类里按名称排序，不区分大小写。
+`sources.csv` 用同样的列名和同样的顺序。类别依次为新品发布平台、AI工具目录、SaaS/工具目录、社区/内容平台，同一类里按名称排序，不区分大小写。
 
-名称有时和 URL 的主机名不一样。BetaList 的订阅在 FeedBurner 上。其余不一致的条目见文末。
+名称有时和网址的主机名不一样。BetaList 的订阅在 FeedBurner 上。其余不一致的条目见文末。
 
-### 类别
+## 类别
 
 | 类别 | 条数 | 在看什么 |
 | --- | ---: | --- |
-| `新品发布平台` | 58 | 新产品发布、每周上新、launch 列表 |
+| `新品发布平台` | 58 | 新产品发布、每周上新、发布列表 |
 | `AI工具目录` | 44 | AI 工具导航和最新收录 |
 | `SaaS/工具目录` | 25 | SaaS、独立开发者工具和通用目录 |
-| `社区/内容平台` | 3 | Dev.to、Hacker News Show HN、Product Hunt |
+| `社区/内容平台` | 3 | Dev.to、Hacker News 的 Show HN、Product Hunt |
 
-字段里写的是左列的原文。`SaaS/工具目录` 就是 SaaS 和通用工具目录。
+字段里写的是左列原文。`SaaS/工具目录` 就是 SaaS 和通用工具目录。
 
-### 抓取方式
+## 抓取方式
 
-| method | 条数 | 含义 |
+| 抓取方式 | 条数 | 含义 |
 | --- | ---: | --- |
-| `sitemap` | 60 | 公开 sitemap。和上一份对比，多出来的地址就是新页面。 |
+| `sitemap` | 60 | 公开站点地图。和上一份对比，多出来的地址就是新页面。 |
 | `html` | 37 | 公开列表页。 |
 | `rss` | 18 | 公开 RSS 或 Atom。 |
 | `mcp` | 5 | 公开 MCP 端点。清单里没有工具名、参数或凭证。 |
@@ -79,111 +75,31 @@ This is a snapshot. It is not updated automatically.
 | `hn_api` | 1 | Hacker News 的 Algolia 检索，只取 Show HN。 |
 | `ph_graphql` | 1 | Product Hunt。这里公布的是公开 RSS，没有 GraphQL 查询，也没有凭证。 |
 
-读取时先用现成的 API 和 Feed，再读列表页，然后用 sitemap 和上一份结果做差分。`method` 表示这个地址适合哪一种读法。
+读取时先用现成的接口和订阅，再读列表页，然后用站点地图和上一份结果做差分。`method` 表示这个地址适合哪一种读法。
 
-`ph_graphql` 这一条的 URL 是 `https://www.producthunt.com/feed`。
+`ph_graphql` 这一条的地址是 `https://www.producthunt.com/feed`。
 
-URL 上现有的查询参数是公开筛选：语言、排序、条数或标签。例如 `tag=showdev`、`per_page=30`、`limit=60`、`tags=show_hn`、`lg=en`、`sort=time_desc`。
+地址上现有的查询参数是公开筛选：语言、排序、条数或标签。例如 `tag=showdev`、`per_page=30`、`limit=60`、`tags=show_hn`、`lg=en`、`sort=time_desc`。
 
-### 使用
+## 使用
 
 遵守每个站点自己的 robots.txt 和服务条款，并留出访问间隔。收录进这份清单，只说明该公开页面在观察范围内。商标和条款仍属于该站点。
 
-### 范围
+## 范围
 
-清单里是公开页面、公开 Feed、公开 sitemap 或公开接口。不含访问令牌、Cookie、账号、付费接口配置、内部路径或私有 IP。
+清单里是公开页面、公开订阅、公开站点地图或公开接口。不含访问令牌、Cookie、账号、付费接口配置、内部路径或私有地址。
 
-### 许可
+## 许可
 
-[MIT 许可证](LICENSE)。Copyright (c) 2026 范师傅 (Fan Shifu)。你可以复制、修改、分发这份清单，并在副本中保留版权声明和许可声明。各站点的商标仍属于该站点。
+[MIT 许可证](LICENSE)。版权人是范师傅（Fan Shifu），年份为 2026。你可以复制、修改、分发这份清单，并在副本中保留版权声明和许可声明。各站点的商标仍属于该站点。
 
-<a id="en"></a>
+## 清单
 
-## English
+排列顺序与 `sources.json`、`sources.csv` 相同。
 
-Curated by 范师傅 ([@fanshifu](https://x.com/FanShifu)).
+### 新品发布平台（58）
 
-I use these 130 public addresses to see what launched. There are 58 new-product launch platforms, 44 AI tool directories, 25 SaaS and general tool directories, and 3 community or content sites. I screened more than 1,000 directory and launch sites and kept these 130, which can still be read in public.
-
-This repository holds the list, this explanation, and the MIT license.
-
-### Fields
-
-| Field | Meaning |
-| --- | --- |
-| `name` | Site label, usually a domain |
-| `url` | Public URL to read |
-| `category` | One of the four categories below; the value is Chinese |
-| `method` | Fetch-method code |
-
-`sources.json` is an array. Each object has only these four keys, in this order: `name`, `url`, `category`, `method`.
-
-```json
-{
-  "name": "betalist.com",
-  "url": "https://feeds.feedburner.com/BetaList",
-  "category": "新品发布平台",
-  "method": "rss"
-}
-```
-
-`sources.csv` uses the same columns and the same order. Categories follow the order launch platforms, AI directories, SaaS and general directories, then community sites. Inside a category, rows are sorted by name, case-insensitive.
-
-The name is sometimes a different host from the URL. The BetaList feed is on FeedBurner. The other mismatches are listed at the end.
-
-### Categories
-
-| Category value | Count | Meaning |
-| --- | ---: | --- |
-| `新品发布平台` | 58 | New-product launch platforms |
-| `AI工具目录` | 44 | AI tool directories |
-| `SaaS/工具目录` | 25 | SaaS and general tool directories |
-| `社区/内容平台` | 3 | Community and content platforms |
-
-The value stored in the files is the Chinese string in the first column. `SaaS/工具目录` means SaaS and general tool directories.
-
-### Fetch methods
-
-| method | Count | Meaning |
-| --- | ---: | --- |
-| `sitemap` | 60 | Public sitemap. URLs that were not in the previous copy are the new pages. |
-| `html` | 37 | Public listing page. |
-| `rss` | 18 | Public RSS or Atom feed. |
-| `mcp` | 5 | Public MCP endpoint. No tool name, arguments, or credentials are included. |
-| `html_cards` | 4 | Repeated cards on a listing page. |
-| `json_api` | 3 | Public JSON. |
-| `shopify_json` | 1 | Public Shopify products.json for a collection. |
-| `hn_api` | 1 | Hacker News search on Algolia, limited to Show HN. |
-| `ph_graphql` | 1 | Product Hunt. The URL in this list is the public RSS feed. No GraphQL query and no credential is included. |
-
-Read an existing API or feed first, then a listing page, then diff a sitemap against the previous copy. `method` says which of those fits the URL.
-
-The `ph_graphql` row points at `https://www.producthunt.com/feed`.
-
-Query strings already on these URLs are public filters: language, sort, page size, or a tag. Examples: `tag=showdev`, `per_page=30`, `limit=60`, `tags=show_hn`, `lg=en`, `sort=time_desc`.
-
-### Use
-
-Follow each site's robots.txt and terms, and leave a polite interval between requests. A row means the public page is in this watch list. Trademarks and terms stay with that site.
-
-### Scope
-
-The list contains public pages, public feeds, public sitemaps, or public APIs. It does not include access tokens, cookies, accounts, paid-API configuration, internal paths, or private IP addresses.
-
-### License
-
-[MIT License](LICENSE). Copyright (c) 2026 范师傅 (Fan Shifu). You can copy, modify, and distribute this list if you keep the copyright notice and the permission notice. Trademarks stay with each site.
-
-<a id="catalog"></a>
-
-## 清单 / Catalog
-
-排序与 `sources.json`、`sources.csv` 相同。  
-Same order as `sources.json` and `sources.csv`.
-
-### 新品发布平台 / New-product launch platforms (58)
-
-| 名称 Name | URL | 类别 Category | 抓取方式 Method |
+| 名称 | 网址 | 类别 | 抓取方式 |
 | --- | --- | --- | --- |
 | 1000.tools | https://1000.tools/sitemap.xml | 新品发布平台 | sitemap |
 | altern.ai | https://altern.ai/recent | 新品发布平台 | html |
@@ -244,9 +160,9 @@ Same order as `sources.json` and `sources.csv`.
 | vibecodinglist.com | https://vibecodinglist.com/sitemap.xml | 新品发布平台 | sitemap |
 | whatlaunched.today | https://whatlaunched.today/feed.xml | 新品发布平台 | rss |
 
-### AI工具目录 / AI tool directories (44)
+### AI工具目录（44）
 
-| 名称 Name | URL | 类别 Category | 抓取方式 Method |
+| 名称 | 网址 | 类别 | 抓取方式 |
 | --- | --- | --- | --- |
 | aiagentsdirectory.com | https://aiagentsdirectory.com/sitemap.xml | AI工具目录 | sitemap |
 | aibesttop.com | https://aibesttop.com/sitemap.xml | AI工具目录 | sitemap |
@@ -293,9 +209,9 @@ Same order as `sources.json` and `sources.csv`.
 | ufind.best | https://ufind.best/mcp | AI工具目录 | mcp |
 | verifiedtools.info | https://www.verifiedtools.info/sitemap.xml | AI工具目录 | sitemap |
 
-### SaaS/工具目录 / SaaS and general tool directories (25)
+### SaaS/工具目录（25）
 
-| 名称 Name | URL | 类别 Category | 抓取方式 Method |
+| 名称 | 网址 | 类别 | 抓取方式 |
 | --- | --- | --- | --- |
 | alterbase.co | https://alterbase.co/sitemap.xml | SaaS/工具目录 | sitemap |
 | alternativeto.net | https://alternativeto.net/browse/new-apps/ | SaaS/工具目录 | html |
@@ -323,17 +239,17 @@ Same order as `sources.json` and `sources.csv`.
 | uno.directory | https://uno.directory/sitemap.xml | SaaS/工具目录 | sitemap |
 | versily.com | https://versily.com/rss/products.xml | SaaS/工具目录 | rss |
 
-### 社区/内容平台 / Community and content platforms (3)
+### 社区/内容平台（3）
 
-| 名称 Name | URL | 类别 Category | 抓取方式 Method |
+| 名称 | 网址 | 类别 | 抓取方式 |
 | --- | --- | --- | --- |
 | dev.to | https://dev.to/api/articles?tag=showdev&per_page=30 | 社区/内容平台 | json_api |
 | news.ycombinator.com | https://hn.algolia.com/api/v1/search_by_date?tags=show_hn | 社区/内容平台 | hn_api |
 | producthunt.com | https://www.producthunt.com/feed | 社区/内容平台 | ph_graphql |
 
-### 名称和 URL 主机名不一致 / Name and URL host differ
+## 名称和网址主机名不一致
 
-| 名称 Name | URL 主机 Host |
+| 名称 | 网址主机 |
 | --- | --- |
 | betalist.com | feeds.feedburner.com |
 | peerpush.net | peerpush.com |
